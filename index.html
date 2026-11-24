@@ -484,6 +484,7 @@ mn.addEventListener('click',function(e){if(e.target.tagName==='A'){mn.classList.
 var linki=[].slice.call(mn.querySelectorAll('a'));
 var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){linki.forEach(function(a){a.classList.toggle('akt',a.getAttribute('href')==='#'+x.target.id)})}})},{rootMargin:'-45% 0px -50% 0px'});
 linki.forEach(function(a){var s=d.querySelector(a.getAttribute('href'));if(s)io.observe(s)});
+io.observe(d.getElementById('start'));
 // pasek akcji na telefonie po minieciu przycisku w pierwszym ekranie
 var mob=d.getElementById('mob'),hb=d.querySelector('.hero .btn');
 new IntersectionObserver(function(en){mob.classList.toggle('widac',!en[0].isIntersecting&&en[0].boundingClientRect.top<0)}).observe(hb);
