@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Domy energooszczędne i szkieletowe Gorzów Wielkopolski - projekt, budowa, wnętrza | EcoTek Home</title>
+<meta name="description" content="EcoTek Home z Gorzowa Wielkopolskiego: projekty budowlane, budowa domów energooszczędnych, pasywnych i szkieletowych GreMagor w stanie deweloperskim lub pod klucz, meble na wymiar.">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" as="font" type="font/woff2" href="fonts/jost-rdzen.woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-tel-1080.webp" media="(max-width:760px)" imagesrcset="img/hero-tel-720.webp 720w, img/hero-tel-1080.webp 1080w, img/hero-tel-1440.webp 1440w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1920.webp" media="(min-width:761px)" imagesrcset="img/hero-960.webp 960w, img/hero-1440.webp 1440w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-3000.webp 3000w" imagesizes="(max-aspect-ratio:16/9) 178svh, 100vw" fetchpriority="high">
+<style>
+@font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
+@font-face{font-family:Jost;font-weight:300 700;font-display:swap;src:url(fonts/jost-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:Manrope;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Manrope;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+/* kolory ze znaku: zielen #1AA757, morski #008080, grafit naglowka obecnej strony #2B2B2B */
+:root{--ziel:#1AA757;--ziel-c:#12813F;--morski:#008080;--morski-c:#006666;--grafit:#2B2B2B;--noc:#1E2827;--tekst:#1D2322;--szary:#55605E;--tlo2:#F1F4F3;--linia:#DCE3E1;--hh:76px;--pas:min(1840px,100% - 2*clamp(16px,3vw,56px))}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font:400 17px/1.65 Manrope,system-ui,sans-serif;color:var(--tekst);background:#fff;overflow-x:clip}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--morski-c)}
+h1,h2,h3{font-family:Jost,system-ui,sans-serif;font-weight:600;line-height:1.12;margin:0;letter-spacing:-.005em}
+h2{font-size:clamp(30px,3.3vw,46px)}
+h3{font-size:24px}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+.wrap{width:min(1240px,100% - 40px);margin-inline:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 28px;background:var(--ziel);color:#fff;font:600 17px/1 Manrope,sans-serif;text-decoration:none;border:0;cursor:pointer;clip-path:polygon(0 0,100% 0,100% 100%,14px 100%,0 calc(100% - 14px));transition:background .2s}
+.btn:hover{background:var(--ziel-c)}
+.btn:focus-visible{outline:3px solid var(--morski);outline-offset:3px}
+/* pas warstw - motyw ze znaku: krotki zielony odcinek i dlugi morski, zalamane jak w logo */
+.pasy{display:block;width:100%;height:16px}
+.pasy .z{fill:var(--ziel)}.pasy .m{fill:var(--morski)}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:#fff;box-shadow:0 1px 0 var(--linia)}
+.top .wrap{display:flex;align-items:center;gap:28px;height:var(--hh);width:min(1400px,100% - 40px)}
+.logo{display:block;flex:none}
+.logo img{width:212px;height:auto}
+.menu{display:flex;gap:30px;margin-left:auto}
+.menu a{color:var(--tekst);text-decoration:none;font:500 17px/1 Jost,sans-serif;padding:8px 0;border-bottom:2px solid transparent}
+.menu a:hover,.menu a.akt{border-color:var(--ziel)}
+.tel{display:flex;align-items:center;gap:9px;color:var(--tekst);text-decoration:none;font:600 17px/1 Manrope,sans-serif;white-space:nowrap}
+.tel svg{width:20px;height:20px;color:var(--ziel)}
+.top .btn{min-height:46px;padding:0 20px;font-size:16px}
+.burger{display:none;margin-left:auto;width:46px;height:46px;border:0;background:none;padding:11px;cursor:pointer}
+.burger span{display:block;height:2px;background:var(--grafit);margin:5px 0;transition:transform .2s,opacity .2s}
+.burger[aria-expanded=true] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger[aria-expanded=true] span:nth-child(2){opacity:0}
+.burger[aria-expanded=true] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.tel-ik{display:none}
+
+/* pierwszy ekran */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;align-items:center;color:#fff;background:var(--noc);overflow:hidden}
+.hero-foto{position:absolute;inset:0;margin:0}
+.hero-foto img{width:100%;height:100%;object-fit:cover;object-position:65% 50%}
+.hero-foto::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(22,30,29,.88) 0%,rgba(22,30,29,.74) 34%,rgba(22,30,29,.18) 62%,rgba(22,30,29,0) 80%)}
+.hero-in{position:relative;width:min(1400px,100% - 40px);margin-inline:auto;padding:48px 0 72px}
+.hero h1{font-size:clamp(40px,3.7vw,66px);font-weight:600;max-width:17ch;line-height:1.07}
+.hero .lead{font-size:clamp(18px,1.35vw,21px);line-height:1.6;max-width:34em;margin-top:24px;color:#E9EFEE}
+.hero .btn{margin-top:34px;min-height:58px;font-size:18px;padding:0 32px}
+.hero .adr{margin-top:22px;font-size:15px;color:#C9D4D2}
+.hero .pasy{position:absolute;left:0;right:0;bottom:0;height:18px}
+
+/* firma */
+.sek{padding:clamp(64px,8vw,112px) 0}
+.firma .wrap{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:start}
+.firma h2{max-width:16ch}
+.firma .txt p+p{margin-top:16px}
+.firma .txt{color:var(--szary);font-size:18px}
+.firma .txt strong{color:var(--tekst);font-weight:700}
+.korzenie{margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--linia)}
+.korzenie div{padding:20px 20px 0 0}
+.korzenie div+div{padding-left:20px;border-left:1px solid var(--linia)}
+.korzenie b{display:block;font:600 21px/1.2 Jost,sans-serif;color:var(--tekst)}
+.korzenie span{display:block;font-size:15px;line-height:1.5;margin-top:6px;color:var(--szary)}
+
+/* warstwy oferty */
+.warstwy{background:var(--tlo2)}
+.warstwy .glowa{max-width:760px}
+.warstwy .glowa p{margin-top:16px;color:var(--szary);font-size:18px}
+.wars{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,80px);align-items:center;margin-top:clamp(44px,5vw,72px)}
+.wars:nth-of-type(even) .wars-foto{order:2}
+.wars-foto{margin:0;position:relative;cursor:zoom-in}
+.wars-foto img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.wars-foto::after{content:"";position:absolute;left:0;bottom:-10px;width:100%;height:10px;background:linear-gradient(90deg,var(--ziel) 0 30%,var(--morski) 30% 100%)}
+.wars h3{font-size:clamp(28px,2.4vw,36px);display:flex;align-items:center;gap:16px}
+.wars h3 svg{width:46px;height:22px;flex:none}
+.wars .opis{margin-top:18px;color:var(--szary)}
+.wars .opis p+p{margin-top:14px}
+.lista{margin-top:20px;display:grid;gap:10px}
+.lista li{position:relative;padding-left:30px}
+.lista li::before{content:"";position:absolute;left:0;top:.62em;width:18px;height:7px;background:linear-gradient(90deg,var(--ziel) 0 34%,var(--morski) 34% 100%);clip-path:polygon(0 0,34% 30%,100% 0,100% 70%,34% 100%,0 70%)}
+
+/* technologia - jedyna ciemna sekcja */
+.tech{background:var(--noc);color:#fff;position:relative}
+.tech .wrap{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,6vw,96px);align-items:center}
+.przekroj{background:#fff;margin:0;padding:clamp(16px,2vw,28px);max-width:490px;justify-self:center;width:100%}
+.przekroj img{width:100%;height:auto}
+.przekroj figcaption{font-size:14px;color:var(--szary);margin-top:10px;line-height:1.45}
+.tech h2{max-width:18ch}
+.tech .lead{margin-top:18px;color:#C9D4D2;font-size:18px;max-width:40em}
+.tech .lista{margin-top:26px;gap:14px}
+.tech .lista li{color:#E3EAE9}
+.tech .lista b{color:#fff;font-weight:700}
+.standardy{margin-top:40px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid rgba(255,255,255,.18)}
+.standardy div{padding:22px 22px 0 0}
+.standardy div+div{padding-left:22px;border-left:1px solid rgba(255,255,255,.18)}
+.standardy b{display:block;font:600 20px/1.2 Jost,sans-serif}
+.standardy span{display:block;margin-top:8px;font-size:15px;line-height:1.55;color:#B9C6C4}
+
+/* pasy kart (realizacje, projekty) */
+.pas-glowa{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;width:var(--pas);margin-inline:auto}
+.pas-glowa p{margin-top:14px;color:var(--szary);font-size:18px;max-width:46em}
+.strz{display:flex;gap:10px;flex:none}
+.strz button{width:50px;height:50px;border:1px solid var(--linia);background:#fff;cursor:pointer;display:grid;place-items:center;color:var(--tekst)}
+.strz button:hover:not(:disabled){border-color:var(--ziel);color:var(--ziel-c)}
+.strz button:disabled{opacity:.35;cursor:default}
+.strz svg{width:22px;height:22px}
+.pas{width:var(--pas);margin:36px auto 0;display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
+.pas::-webkit-scrollbar{display:none}
+.karta{flex:0 0 calc((100% - 24px)/1.18);scroll-snap-align:start;min-width:0}
+@media (min-width:761px){.karta{flex-basis:calc((100% - 24px)/2.25)}}
+@media (min-width:1280px){.karta{flex-basis:calc((100% - 48px)/3)}}
+@media (min-width:1700px){.karta{flex-basis:calc((100% - 72px)/4)}}
+.fot{position:relative;aspect-ratio:4/3;background:var(--tlo2);overflow:hidden}
+.fot-tor{display:flex;height:100%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain;cursor:zoom-in}
+.fot-tor::-webkit-scrollbar{display:none}
+.fot-tor img{flex:0 0 100%;width:100%;height:100%;object-fit:cover;scroll-snap-align:start;user-select:none;-webkit-user-drag:none}
+.fot .lic{position:absolute;right:10px;bottom:10px;background:rgba(22,30,29,.78);color:#fff;font-size:13px;font-weight:600;padding:4px 9px;line-height:1.3;pointer-events:none}
+.fot .nx,.fot .pv{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border:0;background:rgba(255,255,255,.92);color:var(--tekst);display:grid;place-items:center;cursor:pointer;opacity:0;transition:opacity .2s}
+.fot .pv{left:10px}.fot .nx{right:10px}
+.fot .nx svg,.fot .pv svg{width:18px;height:18px}
+.fot:hover .nx,.fot:hover .pv,.fot .nx:focus-visible,.fot .pv:focus-visible{opacity:1}
+@media (hover:none){.fot .nx,.fot .pv{display:none}}
+.karta h3{font-size:22px;margin-top:18px;line-height:1.2}
+.karta .gdzie{margin-top:6px;font-size:15px;color:var(--szary)}
+.karta .fakt{margin-top:10px;font-size:16px;line-height:1.55}
+.karta .fakt b{font-weight:700}
+.karta .tag{display:inline-block;margin-top:12px;font-size:14px;font-weight:600;color:var(--morski-c)}
+.projekty{background:var(--tlo2)}
+.projekty .strz button{background:var(--tlo2)}
+.foto-zr{width:var(--pas);margin:14px auto 0;font-size:13px;color:var(--szary)}
+
+/* kontakt */
+.kontakt .wrap{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,6vw,96px)}
+.dane{margin-top:26px;display:grid;gap:22px;font-size:17px}
+.dane b{display:block;font:600 19px/1.3 Jost,sans-serif;margin-bottom:4px}
+.dane a{color:var(--tekst);text-decoration:none;font-weight:600}
+.dane a:hover{color:var(--ziel-c)}
+.dane .szary{color:var(--szary);font-size:15px}
+form{display:grid;gap:16px;align-content:start}
+.dwa{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{display:grid;gap:6px;font-size:15px;font-weight:600}
+input,select,textarea{font:400 17px/1.4 Manrope,sans-serif;padding:13px 14px;border:1px solid #C3CDCB;background:#fff;color:var(--tekst);border-radius:0;width:100%}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--ziel);outline-offset:0;border-color:var(--ziel)}
+textarea{min-height:130px;resize:vertical}
+.zgoda{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:14px;color:var(--szary);line-height:1.5}
+.zgoda input{width:20px;height:20px;flex:none;margin-top:1px}
+form .btn{justify-self:start}
+.info{font-size:15px;color:var(--ziel-c);font-weight:600;min-height:1em}
+.mapa{margin-top:clamp(56px,7vw,96px);height:420px;background:var(--tlo2)}
+.mapa iframe{width:100%;height:100%;border:0;display:block}
+.mapa button{width:100%;height:100%;border:0;background:var(--tlo2);font:600 17px Manrope,sans-serif;color:var(--tekst);cursor:pointer}
+
+/* stopka */
+.stopka{background:var(--grafit);color:#D5DCDB;padding:0 0 26px}
+.stopka .pasy{margin-bottom:56px}
+.stopka .wrap{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:32px}
+.stopka img{width:220px}
+.stopka b{display:block;color:#fff;font:600 17px/1.3 Jost,sans-serif;margin-bottom:10px}
+.stopka a{color:#D5DCDB;text-decoration:none}
+.stopka a:hover{color:#fff}
+.stopka li{margin:4px 0}
+.stopka .dol{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.14);padding-top:22px;margin-top:20px;font-size:14px}
+{{BADGE_STYLE}}
+
+/* pasek akcji na telefonie po przewinieciu */
+.mob{display:none}
+
+/* powiekszenie zdjec */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(15,20,20,.94);display:none;align-items:center;justify-content:center}
+.lb.on{display:flex}
+.lb img{max-width:min(1600px,94vw);max-height:84svh;width:auto;height:auto;object-fit:contain}
+.lb p{position:absolute;left:0;right:0;bottom:18px;text-align:center;color:#fff;font-size:15px;padding:0 70px}
+.lb button{position:absolute;border:0;background:rgba(255,255,255,.12);color:#fff;width:52px;height:52px;display:grid;place-items:center;cursor:pointer}
+.lb button:hover{background:rgba(255,255,255,.24)}
+.lb svg{width:24px;height:24px}
+.lb .x{top:14px;right:14px}.lb .l{left:14px;top:50%;transform:translateY(-50%)}.lb .r{right:14px;top:50%;transform:translateY(-50%)}
+
+@media (max-width:1180px){.menu{gap:20px}.top .btn{display:none}}
+@media (max-width:980px){
+ .menu{position:fixed;top:var(--hh);left:0;right:0;bottom:0;background:#fff;flex-direction:column;gap:0;padding:12px 20px;display:none;margin:0}
+ .menu.on{display:flex}
+ .menu a{font-size:22px;padding:16px 0;border-bottom:1px solid var(--linia)}
+ .menu a.akt{border-bottom-color:var(--linia);color:var(--ziel-c)}
+ .burger{display:block;margin-left:0}
+ .tel{margin-left:auto}
+ .firma .wrap,.tech .wrap,.kontakt .wrap{grid-template-columns:1fr}
+ .stopka .wrap{grid-template-columns:1fr 1fr}
+ .stopka .wrap>div:first-child{grid-column:1/-1}
+}
+@media (max-width:760px){
+ :root{--hh:64px}
+ body{font-size:16px}
+ .logo img{width:168px}
+ .tel span{display:none}
+ .tel{width:46px;height:46px;justify-content:center;border:1px solid var(--linia)}
+ .hero{flex-direction:column;align-items:stretch;background:var(--noc)}
+ .hero-foto{position:relative;inset:auto;flex:1 1 0;min-height:min(62vw,30svh);max-height:52svh}
+ .hero-foto img{position:absolute;inset:0;object-position:40% 45%}
+ .hero-foto::after{background:linear-gradient(180deg,rgba(30,40,39,0) 55%,var(--noc) 100%)}
+ .hero-in{flex:0 0 auto;width:calc(100% - 36px);padding:4px 0 34px}
+ .hero h1{font-size:clamp(28px,8vw,36px);max-width:none}
+ .hero .lead{font-size:16px;line-height:1.55;margin-top:14px}
+ .hero .btn{margin-top:24px;width:100%}
+ .hero .adr{display:none}
+ .hero .pasy{height:12px}
+ .korzenie{grid-template-columns:1fr}
+ .korzenie div+div{border-left:0;padding-left:0;border-top:1px solid var(--linia);margin-top:18px}
+ .wars{grid-template-columns:1fr;gap:30px}
+ .wars:nth-of-type(even) .wars-foto{order:0}
+ .standardy{grid-template-columns:1fr}
+ .standardy div+div{border-left:0;padding-left:0;border-top:1px solid rgba(255,255,255,.18);margin-top:20px}
+ .strz{display:none}
+ .pas{gap:16px}
+ .karta{flex-basis:calc(100% - 44px)}
+ .dwa{grid-template-columns:1fr}
+ form .btn{width:100%}
+ .mapa{height:320px}
+ .stopka .wrap{gap:26px 20px}
+ .mob{display:grid;grid-template-columns:1fr 1.4fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:40;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--linia);transform:translateY(110%);transition:transform .25s}
+ .mob.widac{transform:none}
+ .mob a{min-height:50px;font-size:16px;padding:0 10px}
+ .mob .zadzwon{display:flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--grafit);color:var(--tekst);text-decoration:none;font-weight:600}
+ .stopka{padding-bottom:96px}
+}
+@media (max-width:760px) and (max-height:700px){.hero .lead{font-size:15px;margin-top:10px}.hero .btn{margin-top:24px;min-height:52px}.hero-in{padding-bottom:24px}}
+@media (min-width:761px) and (max-height:820px){.hero h1{font-size:clamp(38px,3.6vw,58px)}.hero .btn{margin-top:26px}.hero-in{padding:36px 0 60px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="pas" viewBox="0 0 1000 16" preserveAspectRatio="none"><polygon fill="#1AA757" points="0,0 260,5 260,16 0,11"/><polygon fill="#008080" points="260,5 1000,0 1000,11 260,16"/></symbol>
+ <symbol id="warstwa" viewBox="0 0 46 22"><polygon fill="#1AA757" points="0,0 15,4 15,13 0,9"/><polygon fill="#008080" points="15,4 46,0 46,9 15,13"/><polygon fill="#1AA757" points="0,12 15,16 15,22 0,18" opacity=".55"/><polygon fill="#008080" points="15,16 46,12 46,18 15,22" opacity=".55"/></symbol>
+ <symbol id="sl" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+ <symbol id="sp" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+ <symbol id="sx" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+ <symbol id="stel" viewBox="0 0 24 24"><path d="M6.6 3.5l3 3.2-1.8 2.4a12 12 0 0 0 7.1 7.1l2.4-1.8 3.2 3-1.6 3.1C11.4 20.3 3.7 12.6 3.5 5.1z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+</svg>
+
+<header class="top">
+ <div class="wrap">
+  <a class="logo" href="#" aria-label="EcoTek Home - strona główna"><img src="img/logo.svg" width="212" height="50" alt="EcoTek Home - domy ekologiczne"></a>
+  <nav class="menu" id="menu" aria-label="Menu główne">
+   <a href="#firma">O firmie</a>
+   <a href="#oferta">Oferta</a>
+   <a href="#gremagor">Domy szkieletowe</a>
+   <a href="#realizacje">Realizacje</a>
+   <a href="#projekty">Projekty</a>
+   <a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="tel" href="tel:+48513057543" aria-label="Zadzwoń: 513 057 543"><svg aria-hidden="true"><use href="#stel"/></svg><span>513 057 543</span></a>
+  <a class="btn" href="#kontakt">Zapytaj o dom</a>
+  <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+ </div>
+</header>
+
+<main>
+<section class="hero" id="start">
+ <figure class="hero-foto">
+  <picture>
+   <source media="(max-width:760px)" srcset="img/hero-tel-720.webp 720w, img/hero-tel-1080.webp 1080w, img/hero-tel-1440.webp 1440w" sizes="100vw">
+   <img src="img/hero-1920.webp" srcset="img/hero-960.webp 960w, img/hero-1440.webp 1440w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w, img/hero-3000.webp 3000w" sizes="(max-aspect-ratio:16/9) 178svh, 100vw" width="1920" height="1080" alt="Projekt budynków wielorodzinnych EcoTek Home o zmierzchu" fetchpriority="high">
+  </picture>
+ </figure>
+ <div class="hero-in">
+  <h1>Domy energooszczędne i szkieletowe - od projektu po meble</h1>
+  <p class="lead">Projektujemy i budujemy domy energooszczędne, pasywne i zeroenergetyczne. Całą inwestycję prowadzimy w jednych rękach: od pozwolenia na budowę, przez stan deweloperski lub pod klucz, po meble na wymiar.</p>
+  <a class="btn" href="#kontakt">Zapytaj o swój dom</a>
+  <p class="adr">Gorzów Wielkopolski, ul. Sportowa 4/I-1</p>
+ </div>
+ <svg class="pasy" aria-hidden="true"><use href="#pas"/></svg>
+</section>
+
+<section class="sek firma" id="firma">
+ <div class="wrap">
+  <h2>Biuro projektowe i wykonawca w jednej firmie</h2>
+  <div class="txt">
+   <p><strong>EcoTek Home Sp. z o.o.</strong> powstała z połączenia dwóch firm z długim stażem: biura projektowego BPBO W. Lamprecht, które od 1986 roku wykonuje pełnobranżowe projekty budowlane i obsługuje inwestycje, oraz PPUH MAG-MART Romuald Buczkowski, która od 1995 roku montuje konstrukcje drewniane, projektuje i wykonuje meble.</p>
+   <p>Dzięki temu dom powstaje u nas warstwa po warstwie, w jednych rękach: projekt, konstrukcja i wnętrze. Najbliższe są nam budynki energooszczędne, pasywne i zeroenergetyczne, które zużywają mało energii i same produkują jej część ze źródeł odnawialnych.</p>
+   <div class="korzenie">
+    <div><b>od 1986</b><span>projekty budowlane, doradztwo prawne i techniczne, obsługa inwestycji</span></div>
+    <div><b>od 1995</b><span>konstrukcje drewniane oraz meble na wymiar</span></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="sek warstwy" id="oferta">
+ <div class="wrap">
+  <div class="glowa">
+   <h2>Trzy warstwy jednego domu</h2>
+   <p>Nie trzeba szukać osobno architekta, wykonawcy i stolarza. Każdą część możemy przygotować osobno albo poprowadzić całość.</p>
+  </div>
+
+  <article class="wars">
+   <figure class="wars-foto" data-lb="img/projekt-1920.webp" data-opis="Projekt domu z poddaszem użytkowym (D-3)"><img src="img/projekt-960.webp" srcset="img/projekt-640.webp 640w, img/projekt-960.webp 960w, img/projekt-1280.webp 1280w" sizes="(max-width:760px) 100vw, (max-width:1280px) 46vw, 590px" width="960" height="720" loading="lazy" decoding="async" alt="Wizualizacja energooszczędnego domu z poddaszem użytkowym"></figure>
+   <div>
+    <h3><svg aria-hidden="true"><use href="#warstwa"/></svg>Projekt</h3>
+    <div class="opis">
+     <p>Projekty budowlane, techniczne i wykonawcze domów jednorodzinnych, budynków wielorodzinnych, obiektów użyteczności publicznej, handlowych i przemysłowych. Zakres dokumentacji ustalamy z inwestorem, od koncepcji po projekt wykonawczy.</p>
+     <ul class="lista">
+      <li>wszystkie branże: architektura, konstrukcja, instalacje sanitarne i elektryczne, drogi, technologia</li>
+      <li>prowadzenie sprawy do pozwolenia na budowę lub zgłoszenia, z dokumentami w imieniu inwestora</li>
+      <li>inwentaryzacje i skanowanie 3D, projekty renowacji zabytków, programy funkcjonalno-użytkowe</li>
+      <li>przetargi, nadzór autorski i inwestorski</li>
+     </ul>
+    </div>
+   </div>
+  </article>
+
+  <article class="wars">
+   <figure class="wars-foto" data-lb="img/budowa-1057.webp" data-opis="Montaż konstrukcji szkieletowej domu w Merchweiler (Niemcy)"><img src="img/budowa-1057.webp" srcset="img/budowa-640.webp 640w, img/budowa-1057.webp 1057w" sizes="(max-width:760px) 100vw, (max-width:1280px) 46vw, 590px" width="1057" height="742" loading="lazy" decoding="async" alt="Drewniana konstrukcja szkieletowa domu w trakcie montażu"></figure>
+   <div>
+    <h3><svg aria-hidden="true"><use href="#warstwa"/></svg>Budowa</h3>
+    <div class="opis">
+     <p>Budujemy domy jednorodzinne w stanie deweloperskim lub pod klucz, w technologii murowanej i drewnianej. Specjalizujemy się w domach energooszczędnych w modułowej technologii drewnianej, szkieletowej GreMagor i CLT.</p>
+     <p>Kosztorys przygotowujemy indywidualnie, z uwzględnieniem działki i wybranej technologii, a inwestora prowadzimy do uzyskania zgody na użytkowanie.</p>
+    </div>
+   </div>
+  </article>
+
+  <article class="wars">
+   <figure class="wars-foto" data-lb="img/wnetrza-960.webp" data-opis="Kuchnia na wymiar"><img src="img/wnetrza-960.webp" srcset="img/wnetrza-640.webp 640w, img/wnetrza-960.webp 960w" sizes="(max-width:760px) 100vw, (max-width:1280px) 46vw, 590px" width="960" height="610" loading="lazy" decoding="async" alt="Kuchnia z meblami na wymiar"></figure>
+   <div>
+    <h3><svg aria-hidden="true"><use href="#warstwa"/></svg>Wnętrza i meble</h3>
+    <div class="opis">
+     <p>Projektujemy i montujemy meble na wymiar: kuchnie, szafy i meble hotelowe, a także schody, drzwi drewniane i inne elementy wykończenia. Dom może zostać oddany od razu z umeblowaniem.</p>
+    </div>
+   </div>
+  </article>
+ </div>
+</section>
+
+<section class="sek tech" id="gremagor">
+ <div class="wrap">
+  <figure class="przekroj"><img src="img/przekroj-490.webp" srcset="img/przekroj-490.webp 490w, img/przekroj-980.webp 980w" sizes="(max-width:540px) 88vw, 440px" width="490" height="626" loading="lazy" decoding="async" alt="Przekrój ściany domu szkieletowego w technologii GreMagor"><figcaption>Przekrój ściany szkieletowej: konstrukcja drewniana, izolacja, poszycie i elewacja.</figcaption></figure>
+  <div>
+   <h2>Domy szkieletowe w technologii GreMagor</h2>
+   <p class="lead">Dom powstaje z prefabrykowanych elementów, dlatego konstrukcję montujemy w krótkim czasie, a moduły można dopasować do własnego układu. Prowadzimy całość: od projektu architektonicznego po oddanie gotowego budynku.</p>
+   <ul class="lista">
+    <li><b>Drewno konstrukcyjne C24</b>: certyfikowane, o równomiernej gęstości i przewidywalnej wytrzymałości</li>
+    <li><b>System modułowy</b>: prefabrykowane elementy skracają budowę i ułatwiają zmiany w projekcie</li>
+    <li><b>Izolacja</b>: wełna mineralna i folie paroizolacyjne, a do tego izolacja akustyczna od hałasu z zewnątrz</li>
+    <li><b>Bezpieczeństwo</b>: impregnaty i powłoki ogniochronne, konstrukcja na długie lata</li>
+   </ul>
+   <div class="standardy">
+    <div><b>Energooszczędny</b><span>zużywa mniej energii dzięki izolacji, wentylacji i oszczędnemu oświetleniu</span></div>
+    <div><b>Pasywny</b><span>bardzo małe zapotrzebowanie na energię, korzysta z ciepła słońca</span></div>
+    <div><b>Zeroenergetyczny</b><span>sam produkuje tyle energii, ile zużywa: fotowoltaika, pompa ciepła</span></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="sek realizacje" id="realizacje">
+ <div class="pas-glowa">
+  <div>
+   <h2>Realizacje</h2>
+   <p>Domy szkieletowe w Polsce i w Niemczech oraz budynki publiczne według naszych projektów. Zdjęcia można przesuwać i powiększać.</p>
+  </div>
+  <div class="strz" data-pas="pas-r"><button class="w" aria-label="Poprzednie"><svg><use href="#sl"/></svg></button><button class="n" aria-label="Następne"><svg><use href="#sp"/></svg></button></div>
+ </div>
+ <div class="pas" id="pas-r">
+  {{KARTY_R}}
+ </div>
+ <p class="foto-zr">Zdjęcia żłobka w Kaliszu Pomorskim: UM Szczecin.</p>
+</section>
+
+<section class="sek projekty" id="projekty">
+ <div class="pas-glowa">
+  <div>
+   <h2>Projekty domów</h2>
+   <p>Nasze koncepcje do dopasowania: od całorocznego domku o powierzchni użytkowej 40 m² po dom na wodzie na stalowym pontonie.</p>
+  </div>
+  <div class="strz" data-pas="pas-p"><button class="w" aria-label="Poprzednie"><svg><use href="#sl"/></svg></button><button class="n" aria-label="Następne"><svg><use href="#sp"/></svg></button></div>
+ </div>
+ <div class="pas" id="pas-p">
+  {{KARTY_P}}
+ </div>
+</section>
+
+<section class="sek kontakt" id="kontakt">
+ <div class="wrap">
+  <div>
+   <h2>Zapytaj o projekt lub budowę</h2>
+   <div class="dane">
+    <div><b>Biuro projektowe</b><a href="tel:+48513057543">+48 513 057 543</a></div>
+    <div><b>Biuro wykonawcze</b><a href="tel:+48601728276">+48 601 728 276</a></div>
+    <div><b>E-mail</b><a href="mailto:biuro@ecotekhome.pl">biuro@ecotekhome.pl</a></div>
+    <div><b>Adres</b>ul. Sportowa 4/I-1, 66-400 Gorzów Wielkopolski<br><span class="szary">poniedziałek - piątek 8:00 - 16:00, sobota 10:00 - 14:00</span></div>
+    <div class="szary">EcoTek Home Sp. z o.o., NIP 5993239966, REGON 382793792</div>
+   </div>
+  </div>
+  <form id="form" novalidate>
+   <div class="dwa">
+    <label>Imię i nazwisko<input name="imie" autocomplete="name" required></label>
+    <label>Telefon<input name="tel" type="tel" autocomplete="tel"></label>
+   </div>
+   <label>E-mail<input name="email" type="email" autocomplete="email" required></label>
+   <label>Czego dotyczy zapytanie
+    <select name="temat"><option>Projekt domu lub budynku</option><option>Budowa domu</option><option>Dom szkieletowy GreMagor</option><option>Meble na wymiar</option><option>Inne</option></select>
+   </label>
+   <label>Wiadomość<textarea name="wiad" placeholder="Np. lokalizacja działki, metraż, termin"></textarea></label>
+   <label class="zgoda"><input type="checkbox" required> Wyrażam zgodę na przetwarzanie moich danych w celu odpowiedzi na zapytanie, zgodnie z polityką prywatności.</label>
+   <button class="btn" type="submit">Wyślij zapytanie</button>
+   <p class="info" id="info" aria-live="polite"></p>
+  </form>
+ </div>
+ <div class="mapa" id="mapa"><button type="button" id="mapa-btn">Pokaż mapę dojazdu: ul. Sportowa 4, Gorzów Wielkopolski</button></div>
+</section>
+</main>
+
+<footer class="stopka">
+ <svg class="pasy" aria-hidden="true"><use href="#pas"/></svg>
+ <div class="wrap">
+  <div><img src="img/logo-jasne.svg" width="220" height="52" alt="EcoTek Home" loading="lazy"><p style="margin-top:16px;font-size:15px;max-width:30em">Projekty, budowa domów energooszczędnych i szkieletowych, meble na wymiar.</p></div>
+  <div><b>Kontakt</b><ul><li><a href="tel:+48513057543">+48 513 057 543</a></li><li><a href="tel:+48601728276">+48 601 728 276</a></li><li><a href="mailto:biuro@ecotekhome.pl">biuro@ecotekhome.pl</a></li></ul></div>
+  <div><b>Adres</b><ul><li>ul. Sportowa 4/I-1</li><li>66-400 Gorzów Wielkopolski</li><li>pn-pt 8-16, sob. 10-14</li></ul></div>
+  <div><b>Na stronie</b><ul><li><a href="#oferta">Oferta</a></li><li><a href="#gremagor">Domy szkieletowe</a></li><li><a href="#realizacje">Realizacje</a></li><li><a href="#projekty">Projekty</a></li></ul></div>
+  <div class="dol"><span>© <span id="rok">2026</span> EcoTek Home Sp. z o.o.</span>{{BADGE_LINK}}</div>
+ </div>
+</footer>
+
+<div class="mob" id="mob"><a class="zadzwon" href="tel:+48513057543"><svg width="18" height="18" aria-hidden="true"><use href="#stel"/></svg>Zadzwoń</a><a class="btn" href="#kontakt">Zapytaj o dom</a></div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+ <img alt="">
+ <p></p>
+ <button class="x" aria-label="Zamknij"><svg><use href="#sx"/></svg></button>
+ <button class="l" aria-label="Poprzednie zdjęcie"><svg><use href="#sl"/></svg></button>
+ <button class="r" aria-label="Następne zdjęcie"><svg><use href="#sp"/></svg></button>
+</div>
+
+<script>
+(function(){
+var d=document;
+d.getElementById('rok').textContent=new Date().getFullYear();
+// menu mobilne
+var bg=d.getElementById('burger'),mn=d.getElementById('menu');
+bg.addEventListener('click',function(){var o=mn.classList.toggle('on');bg.setAttribute('aria-expanded',o)});
+mn.addEventListener('click',function(e){if(e.target.tagName==='A'){mn.classList.remove('on');bg.setAttribute('aria-expanded',false)}});
+// aktywna pozycja menu
+var linki=[].slice.call(mn.querySelectorAll('a'));
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){linki.forEach(function(a){a.classList.toggle('akt',a.getAttribute('href')==='#'+x.target.id)})}})},{rootMargin:'-45% 0px -50% 0px'});
+linki.forEach(function(a){var s=d.querySelector(a.getAttribute('href'));if(s)io.observe(s)});
+// pasek akcji na telefonie po minieciu przycisku w pierwszym ekranie
+var mob=d.getElementById('mob'),hb=d.querySelector('.hero .btn');
+new IntersectionObserver(function(en){mob.classList.toggle('widac',!en[0].isIntersecting&&en[0].boundingClientRect.top<0)}).observe(hb);
+// powiekszenie
+var lb=d.getElementById('lb'),li=lb.querySelector('img'),lp=lb.querySelector('p'),zest=[],ix=0;
+function pokaz(){var z=zest[ix];li.src=z[0];lp.textContent=z[1]+(zest.length>1?'  ('+(ix+1)+'/'+zest.length+')':'');lb.querySelector('.l').style.display=lb.querySelector('.r').style.display=zest.length>1?'':'none'}
+function otworz(z,i){zest=z;ix=i;pokaz();lb.classList.add('on');lb.querySelector('.x').focus()}
+function zamknij(){lb.classList.remove('on');li.removeAttribute('src')}
+lb.querySelector('.x').onclick=zamknij;
+lb.querySelector('.l').onclick=function(){ix=(ix-1+zest.length)%zest.length;pokaz()};
+lb.querySelector('.r').onclick=function(){ix=(ix+1)%zest.length;pokaz()};
+lb.addEventListener('click',function(e){if(e.target===lb)zamknij()});
+d.addEventListener('keydown',function(e){if(!lb.classList.contains('on'))return;if(e.key==='Escape')zamknij();if(e.key==='ArrowLeft')lb.querySelector('.l').click();if(e.key==='ArrowRight')lb.querySelector('.r').click()});
+var sx=0;lb.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+lb.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>50)lb.querySelector(dx<0?'.r':'.l').click()});
+d.querySelectorAll('.wars-foto').forEach(function(f){f.addEventListener('click',function(){otworz([[f.dataset.lb,f.dataset.opis]],0)})});
+// przewijanie mysza (przeciaganie) bez klikniecia po przesunieciu
+function przeciagnij(el){var dn=false,x0=0,s0=0,ruch=0;
+ el.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;dn=true;ruch=0;x0=e.clientX;s0=el.scrollLeft;el.style.scrollSnapType='none'});
+ window.addEventListener('pointermove',function(e){if(!dn)return;var dx=e.clientX-x0;ruch=Math.max(ruch,Math.abs(dx));el.scrollLeft=s0-dx});
+ window.addEventListener('pointerup',function(){if(!dn)return;dn=false;el.style.scrollSnapType='';var w=el.firstElementChild?el.firstElementChild.getBoundingClientRect().width:el.clientWidth;el.scrollTo({left:Math.round(el.scrollLeft/w)*w,behavior:'smooth'})});
+ el.addEventListener('click',function(e){if(ruch>6){e.stopPropagation();e.preventDefault()}},true);
+}
+// karuzele w kartach
+d.querySelectorAll('.fot').forEach(function(f){
+ var tor=f.querySelector('.fot-tor'),imgs=[].slice.call(tor.querySelectorAll('img')),lic=f.querySelector('.lic'),n=imgs.length,tyt=f.dataset.tytul;
+ function akt(){var i=Math.round(tor.scrollLeft/tor.clientWidth);if(lic)lic.textContent=(i+1)+' / '+n;return i}
+ tor.addEventListener('scroll',function(){akt()},{passive:true});
+ przeciagnij(tor);
+ var pv=f.querySelector('.pv'),nx=f.querySelector('.nx');
+ if(pv)pv.onclick=function(e){e.stopPropagation();tor.scrollBy({left:-tor.clientWidth,behavior:'smooth'})};
+ if(nx)nx.onclick=function(e){e.stopPropagation();tor.scrollBy({left:tor.clientWidth,behavior:'smooth'})};
+ tor.addEventListener('click',function(){otworz(imgs.map(function(im){return[im.dataset.duze||im.currentSrc||im.src,tyt]}),akt())});
+});
+// pasy kart ze strzalkami
+d.querySelectorAll('.strz').forEach(function(s){
+ var p=d.getElementById(s.dataset.pas),w=s.querySelector('.w'),n=s.querySelector('.n');
+ function krok(){var k=p.querySelector('.karta');return k.getBoundingClientRect().width+parseFloat(getComputedStyle(p).columnGap||24)}
+ function stan(){w.disabled=p.scrollLeft<4;n.disabled=p.scrollLeft+p.clientWidth>=p.scrollWidth-4}
+ w.onclick=function(){p.scrollBy({left:-krok(),behavior:'smooth'})};
+ n.onclick=function(){p.scrollBy({left:krok(),behavior:'smooth'})};
+ p.addEventListener('scroll',stan,{passive:true});window.addEventListener('resize',stan);stan();
+});
+// leniwe zdjecia w kartach: kolejne zdjecia dopiero gdy karta jest blisko
+var lz=new IntersectionObserver(function(en,o){en.forEach(function(x){if(x.isIntersecting){x.target.querySelectorAll('img[data-src]').forEach(function(im){im.src=im.dataset.src;if(im.dataset.srcset)im.srcset=im.dataset.srcset;im.removeAttribute('data-src')});o.unobserve(x.target)}})},{rootMargin:'300px'});
+d.querySelectorAll('.karta').forEach(function(k){lz.observe(k)});
+// formularz pokazowy
+d.getElementById('form').addEventListener('submit',function(e){e.preventDefault();d.getElementById('info').textContent='To podgląd strony: formularz zacznie wysyłać zapytania po wdrożeniu.'});
+// mapa Google dopiero po kliknieciu lub przewinieciu
+var mp=d.getElementById('mapa');
+function mapa(){if(mp.dataset.ok)return;mp.dataset.ok=1;mp.innerHTML='<iframe title="Mapa dojazdu: EcoTek Home, ul. Sportowa 4, Gorzów Wielkopolski" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Sportowa+4,+66-400+Gorz%C3%B3w+Wielkopolski&z=15&output=embed"></iframe>'}
+d.getElementById('mapa-btn').onclick=mapa;
+new IntersectionObserver(function(en,o){if(en[0].isIntersecting){mapa();o.disconnect()}},{rootMargin:'200px'}).observe(mp);
+})();
+</script>
+</body>
+</html>
